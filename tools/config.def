@@ -1,0 +1,24 @@
+// CFG(section, name, default)
+
+// CFG(player, version, "1")
+
+CFG(useroptions, av_sync_type, "1")
+CFG(useroptions, thread_count, "8")
+CFG(useroptions, thread_type, "1")
+CFG(useroptions, workaround_bugs, "1")
+CFG(useroptions, fast, "0")
+CFG(useroptions, genpts, "1")
+CFG(useroptions, low_res, "1")
+CFG(useroptions, idct, "0")
+CFG(useroptions, skipframe, "0")
+CFG(useroptions, skipidct, "0")
+CFG(useroptions, skiploop, "48")
+CFG(useroptions, error_recognition, "2")
+CFG(useroptions, error_concealment, "2")
+CFG(useroptions, decoder_reorder_pts, "-1")
+CFG(useroptions, autoexit, "1")
+CFG(useroptions, loop, "0")
+CFG(useroptions, framedrop, "0")
+CFG(useroptions, xexname, "default.xex");
+
+#undef CFG
